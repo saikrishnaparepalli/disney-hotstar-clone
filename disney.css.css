@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar {
+    background-color: #16083b;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.logo {
+    height: 40px;
+    margin-left: 5px;
+}
+
+.items {
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+.nav-items a {
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto";
+    padding-right: 10px;
+
+}
+
+.search-container {
+    margin-left: auto;
+    display: block;
+}
+
+.search {
+    border: none;
+    color: white;
+    background-color: transparent;
+    border-bottom: 1px solid #e1dfe6;
+    outline: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 250px;
+}
+
+.search:focus {
+    width: 400px;
+
+}
+
+.login {
+    text-transform: capitalize;
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.search-bar {
+    color: white;
+    padding-right: 3px;
+    font-size: 13px;
+    padding-bottom: 3px;
+}
+
+.second-container {
+    background-color: #16083b;
+    margin-top: 0px;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    overflow-x: hidden;
+
+}
+
+.carousel {
+    display: flex;
+    width: 98%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slider {
+    position: relative;
+    flex: 0 0 auto;
+
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.slider img {
+    width: 70%;
+    min-height: 100%;
+    object-fit: cover;
+    margin-left: auto;
+    display: block;
+}
+
+.slide-content {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, #030b17 80%, #0c111b00);
+    color: white;
+    z-index: 2;
+}
+
+.movie-title {
+    color: white;
+    font-family: "Lobster";
+    font-size: 35px;
+    padding: 15px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+
+.movie-story {
+    color: white;
+    font-family: "Roboto";
+    font-size: 14px;
+    padding-left: 15px;
+    padding-top: 8px;
+    width: 80%;
+}
+
+
+.card-h {
+    height: 450px;
+    margin-top: 0px;
+}
+
+.marvel {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+    width: 65px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.studio {
+
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+    width: 65px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.hotstar {
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.special {
+    color: green;
+    font-weight: bold;
+    font-family: "Roboto";
+
+}
+
+.action {
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.thrid-cont {
+    background-color: #050417;
+    margin-top: 0px;
+    height: 100%;
+}
+
+.movie-heading {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.video-card-container {
+    position: relative;
+    width: 92%;
+    margin: auto;
+    height: 10vw;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.video-card {
+    position: relative;
+    min-width: calc(100%/5 - 10px);
+    width: calc(100%/5 - 10px);
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #030b17;
+}
+
+.video-card-image,
+.card-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-video {
+    position: relative;
+}
+
+.video-card:hover .video-card-image {
+    display: none;
+}
+
+.title {
+    color: #ffffff;
+    opacity: 0.9;
+    padding-left: 4%;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.movies-list {
+    width: 100%;
+    height: 220px;
+    position: relative;
+    margin: 10px 0 20px;
+}
+
+.card-container {
+    position: absolute;
+    width: 96%;
+    padding-left: 4%;
+    height: 220PX;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-behavior: smooth;
+}
+
+.card-container::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    position: relative;
+    min-width: 150px;
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+    transition: .5s;
+    background: #000;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card:hover .card-body {
+    opacity: 1;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-body {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #192133 90%);
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.name {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 60%;
+}
+
+.des {
+    color: #fff;
+    opacity: 0.8;
+    margin: 5px 0;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.watchlist-btn {
+    position: relative;
+    width: 100%;
+    text-transform: capitalize;
+    background: none;
+    border: none;
+    font-weight: 500;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 5px 0;
+    cursor: pointer;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.watchlist-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5px;
+    height: 35px;
+    width: 35px;
+    background-image: url(images/add.png);
+    background-size: cover;
+    transform: scale(0.4);
+}
+
+.watchlist-btn:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.pre-btn,
+.nxt-btn {
+    position: absolute;
+    top: 0;
+    width: 5%;
+    height: 100%;
+    z-index: 2;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
+
+.pre-btn {
+    left: 0;
+    background: linear-gradient(to right, #0c111b 0%, #0c111b00);
+}
+
+.nxt-btn {
+    right: 0;
+    background: linear-gradient(to left, #0c111b 0%, #0c111b00);
+}
+
+.pre-btn img,
+.nxt-btn img {
+    width: 15px;
+    height: 20px;
+    opacity: 0;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+    opacity: 1;
+}
+
+.video-card-container {
+    position: relative;
+    width: 92%;
+    margin: auto;
+    height: 10vw;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.video-card {
+    position: relative;
+    min-width: calc(100%/5 - 10px);
+    width: calc(100%/5 - 10px);
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #030b17;
+}
+
+.video-card-image,
+.card-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-video {
+    position: relative;
+}
+
+.video-card:hover .video-card-image {
+    display: none;
+}
+
+.title {
+    color: #fff;
+    opacity: 0.9;
+    padding-left: 4%;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.movies-list {
+    width: 100%;
+    height: 220px;
+    position: relative;
+    margin: 10px 0 20px;
+}
+
+.card-container {
+    position: absolute;
+    width: 96%;
+    padding-left: 4%;
+    height: 220PX;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-behavior: smooth;
+}
+
+.card-container::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    position: relative;
+    min-width: 150px;
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+    transition: .5s;
+    background: #000;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card:hover .card-body {
+    opacity: 1;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-body {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: linear-gradient(to bottom, rgba(4, 8, 15, 0), #192133 90%);
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.name {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 60%;
+}
+
+.des {
+    color: #fff;
+    opacity: 0.8;
+    margin: 5px 0;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.watchlist-btn {
+    position: relative;
+    width: 100%;
+    text-transform: capitalize;
+    background: none;
+    border: none;
+    font-weight: 500;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 5px 0;
+    cursor: pointer;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.watchlist-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5px;
+    height: 35px;
+    width: 35px;
+    background-image: url(images/add.png);
+    background-size: cover;
+    transform: scale(0.4);
+}
+
+.watchlist-btn:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.pre-btn,
+.nxt-btn {
+    position: absolute;
+    top: 0;
+    width: 5%;
+    height: 100%;
+    z-index: 2;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.pre-btn {
+    left: 0;
+    background: linear-gradient(to right, #0c111b 0%, #0c111b00);
+}
+
+.nxt-btn {
+    right: 0;
+    background: linear-gradient(to left, #0c111b 0%, #0c111b00);
+}
+
+.pre-btn img,
+.nxt-btn img {
+    width: 15px;
+    height: 20px;
+    opacity: 0;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+    opacity: 1;
+}
